@@ -1,0 +1,20 @@
+@charset 'utf-8';
+section{
+    display: flex;
+    align-items: flex-end;
+    
+    width: 100%;
+}
+section div{
+    margin: auto auto;
+}
+section div form{
+    display: flex;
+    flex-direction: column;
+}
+section div form span{
+    margin: 10px;
+}
+section div form span:nth-of-type(6) input{
+    width: 215px;
+}
