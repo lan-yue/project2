@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hx.com.project</groupId>
-    <artifactId>springmvc_attendance_02</artifactId>
+    <artifactId>team</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>springmvc_attendance_02 Maven Webapp</name>
+    <name>team</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 

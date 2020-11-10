@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section {
+        display: flex;
+        align-items: flex-end;
+        height: 500px;
+        width: 100%;
+    }
+
+    section div {
+        margin: auto auto;
+    }
+
+    section div form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div form span {
+        margin: 10px;
+    }
+
+    section div form span:nth-of-type(7) input {
+        width: 215px;
+    }
+</style>
+
+<body>
+    <section>
+        <div>
+            <form action="#">
+                <span>
+                    <label for="schoolID">学号：</label>
+                    <input type="text" name="schoolID" id="schoolID" placeholder="请输入学号">
+                </span>
+                <span>
+                    <label for="tsname"></label>姓名：</label>
+                    <input type="text" name="tsname" id="tsname" placeholder="请输入姓名">
+                </span>
+                <span>
+                    <label for="tsID"></label>身份证：</label>
+                    <input type="text" name="tsID" id="tsID" placeholder="请输入身份证">
+                </span>
+                <span>
+                    <label for="grade"></label>年级：</label>
+                    <input type="text" name="grade" id="grade" placeholder="请输入年级">
+                </span>
+                <span>
+                    <label for="specIalIty"></label>所学专业：</label>
+                    <input type="text" name="specIalIty" id="specIalIty" placeholder="请输入所学专业">
+                </span>
+                <span>
+                    <label for="school"></label>所属学校：</label>
+                    <input type="text" name="school" id="school" placeholder="请输入所属学校">
+                </span>
+                <span>
+                    <input type="submit" value="添加">
+                </span>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
